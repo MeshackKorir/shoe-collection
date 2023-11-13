@@ -1,0 +1,9 @@
+nav{
+    display: flex;
+    border-bottom: 2px solid rgb(247, 178, 50);
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    z-index: 999;
+    margin-left: 2rem;
+}
