@@ -5,7 +5,7 @@ import Colors from "./Colors/Colors";
 import { FaShoppingCart } from "react-icons/fa";
 import "./Sidebar.css";
 
-const Sidebar = () => {
+const Sidebar = ({handleChange}) => {
   return (
     <>
       <section className='sidebar'>
@@ -17,9 +17,9 @@ const Sidebar = () => {
           </h1>
         </div>
         {/* <FaShoppingCart /> */}
-        <Category />
-        <Price />
-        <Colors />
+        <Category handleChange={handleChange}/>
+        <Price handleChange={handleChange}/>
+        <Colors handleChange={handleChange}/>
       </section>
     </>
   );
