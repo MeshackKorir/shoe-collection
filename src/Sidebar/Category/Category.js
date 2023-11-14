@@ -1,4 +1,5 @@
 import React from 'react'
+import Input from '../../components/Input'
 import "./Category.css"
 
 const Category = () => {
@@ -10,39 +11,12 @@ const Category = () => {
         <h2>Category</h2>
       </div>
       <div>
-        <label className='sidebar-label-container'>
-          <input type="radio" name="test" />
-            <span className='checkmark'></span>All
-        </label>
+        <Input />
+        <Input />
+        <Input />
+        <Input />
       </div>
-
-      <div>
-        <label className='sidebar-label-container'>
-          <input type="radio" name="test" />
-            <span className='checkmark'></span>Sneakers
-        </label>
-      </div>
-
-      <div>
-        <label className='sidebar-label-container'>
-          <input type="radio" name="test" />
-            <span className='checkmark'></span>Flats
-        </label>
-      </div>
-
-      <div>
-        <label className='sidebar-label-container'>
-          <input type="radio" name="test" />
-            <span className='checkmark'></span>Sandals
-        </label>
-      </div>
-
-      <div>
-        <label className='sidebar-label-container'>
-          <input type="radio" name="test" />
-            <span className='checkmark'></span>Heels
-        </label>
-      </div>
+        
     </h2>
   )
 }
