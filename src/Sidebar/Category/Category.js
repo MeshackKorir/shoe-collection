@@ -3,8 +3,12 @@ import "./Category.css"
 
 const Category = () => {
   return (
+
+    
     <h2 className='sidebar-title'>
-      
+      <div>
+        <h2>Category</h2>
+      </div>
       <div>
         <label className='sidebar-label-container'>
           <input type="radio" name="test" />
