@@ -1,6 +1,5 @@
-import "./Colors.css";
 import Input from "../../components/Input";
-
+import "./Color.css"
 const Colors = ({ handleChange }) => {
   return (
     <>
